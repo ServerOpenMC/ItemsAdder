@@ -29,13 +29,6 @@ font_images:
     path: "player.png"
     scale_ratio: 9
     y_position: 8
-  builder:
-    permission: "betterranks.admin"
-    show_in_gui: true
-    suggest_in_command: false
-    path: "builder.png"
-    scale_ratio: 9
-    y_position: 8
   youtube:
     permission: "betterranks.admin"
     show_in_gui: true
