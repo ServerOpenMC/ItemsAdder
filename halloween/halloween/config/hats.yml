@@ -1,0 +1,57 @@
+info:
+  namespace: halloween
+items:
+  witch_hat:
+    display_name: "witch hat"
+    max_stack_size: 1
+    specific_properties:
+    resource:
+      material: PAPER
+      generate: false
+      model_path: witch_hat
+    behaviours:
+      hat: true
+
+  spider_hat:
+    display_name: "spider hat"
+    max_stack_size: 1
+    specific_properties:
+    resource:
+      material: PAPER
+      generate: false
+      model_path: spider_hat
+    behaviours:
+      hat: true
+
+  scream_mask:
+    display_name: "scream mask"
+    max_stack_size: 1
+    specific_properties:
+    resource:
+      material: PAPER
+      generate: false
+      model_path: scream_mask
+    behaviours:
+      hat: true
+
+  axe:
+    display_name: "axe"
+    max_stack_size: 1
+    specific_properties:
+    resource:
+      material: PAPER
+      generate: false
+      model_path: axe
+    behaviours:
+      hat: true
+
+  vampire_hat:
+    display_name: "vampire hat"
+    max_stack_size: 1
+    specific_properties:
+    resource:
+      material: PAPER
+      generate: false
+      model_path: vampire_hat
+    behaviours:
+      hat: true

@@ -1,0 +1,56 @@
+info:
+  namespace: halloween
+font_images:
+  main_menu:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "menus/main_menu.png"
+    y_position: 16
+
+  shop_menu:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "menus/shop_menu.png"
+    y_position: 16
+
+  day_shop_menu:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "menus/day_shop_menu.png"
+    y_position: 16
+
+  night_shop_menu:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "menus/night_shop_menu.png"
+    y_position: 16
+
+  buy_menu:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "menus/buy_menu.png"
+    y_position: 16
+
+  day_buy_menu:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "menus/day_buy_menu.png"
+    y_position: 16
+
+  night_buy_menu:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "menus/night_buy_menu.png"
+    y_position: 16
+
+  weekly_shop_menu:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "menus/weekly_shop_menu.png"
+    y_position: 16
+
+  mansion_menu:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "menus/mansion_menu.png"
+    y_position: 16
