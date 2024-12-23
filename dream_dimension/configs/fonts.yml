@@ -1,8 +1,0 @@
-info:
-  namespace: aywen
-font_images:
-  dandanmagicien:
-    show_in_gui: true
-    path: font/dandanmagicien.png
-    scale_ratio: 80
-    y_position: 10

@@ -1,9 +1,0 @@
-info:
-  namespace: quests
-font_images:
-  quests_menu:
-    permission: "ayw.emoji.admin"
-    show_in_gui: true
-    suggest_in_command: false
-    path: "menus/quests.png"
-    y_position: 36

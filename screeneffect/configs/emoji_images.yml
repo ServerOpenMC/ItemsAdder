@@ -1,9 +1,0 @@
-info:
-  namespace: "screeneffect"
-font_images:
-  screeneffect:
-    permission: op
-    show_in_gui: false
-    path: "font/screeneffect"
-    scale_ratio: 10000
-    y_position: 5000
