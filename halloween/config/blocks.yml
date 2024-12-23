@@ -1,0 +1,196 @@
+info:
+  namespace: halloween
+items:
+  red_candy_block:
+    display_name: block de bonbon rouge
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - blocks/candy.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          break_sound: BLOCK_WOOD_BREAK
+          place_sound: BLOCK_WOOD_PLACE
+          step_sound: BLOCK_WOOD_STEP
+          hardness: 2
+          resistance: 2
+          light_level: 1
+          flammable: true
+          catch_fire: true
+
+  green_candy_block:
+    display_name: block de bonbon vert
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - blocks/candy_commun.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          break_sound: BLOCK_WOOD_BREAK
+          place_sound: BLOCK_WOOD_PLACE
+          step_sound: BLOCK_WOOD_STEP
+          hardness: 2
+          resistance: 2
+          light_level: 1
+          flammable: true
+          catch_fire: true
+
+  blue_candy_block:
+    display_name: block de bonbon bleu
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - blocks/candy_rare.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          break_sound: BLOCK_WOOD_BREAK
+          place_sound: BLOCK_WOOD_PLACE
+          step_sound: BLOCK_WOOD_STEP
+          hardness: 2
+          resistance: 2
+          light_level: 1
+          flammable: true
+          catch_fire: true
+
+  purple_candy_block:
+    display_name: block de bonbon violet
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - blocks/candy_epic.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          break_sound: BLOCK_WOOD_BREAK
+          place_sound: BLOCK_WOOD_PLACE
+          step_sound: BLOCK_WOOD_STEP
+          hardness: 2
+          resistance: 2
+          light_level: 1
+          flammable: true
+          catch_fire: true
+
+  yellow_candy_block:
+    display_name: block de bonbon jaune
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - blocks/candy_legendary.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          break_sound: BLOCK_WOOD_BREAK
+          place_sound: BLOCK_WOOD_PLACE
+          step_sound: BLOCK_WOOD_STEP
+          hardness: 2
+          resistance: 2
+          light_level: 1
+          flammable: true
+          catch_fire: true
+
+  lootbox:
+    display_name: "lootbox"
+    resource:
+      material: PAPER
+      generate: false
+      model_path: lootbox
+    behaviours:
+      furniture:
+        entity: item_display
+        solid: true
+        fixed_rotation: true
+        hitbox:
+          length: 1
+          height: 1
+          width: 1
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        display_transformation:
+          translation:
+            x: 0
+            y: 0.35
+            z: 0
+          scale:
+            x: 1
+            y: 1
+            z: 1
+recipes:
+  crafting_table:
+    red_candy_block:
+      enabled: true
+      pattern:
+        - CCC
+        - CCC
+        - CCC
+      ingredients:
+        C: halloween:candy_red
+      result:
+        item: halloween:red_candy_block
+        amount: 1
+
+    green_candy_block:
+      enabled: true
+      pattern:
+        - CCC
+        - CCC
+        - CCC
+      ingredients:
+        C: halloween:candy_green
+      result:
+        item: halloween:green_candy_block
+        amount: 1
+
+    blue_candy_block:
+      enabled: true
+      pattern:
+        - CCC
+        - CCC
+        - CCC
+      ingredients:
+        C: halloween:candy_blue
+      result:
+        item: halloween:blue_candy_block
+        amount: 1
+
+    purple_candy_block:
+      enabled: true
+      pattern:
+        - CCC
+        - CCC
+        - CCC
+      ingredients:
+        C: halloween:candy_purple
+      result:
+        item: halloween:purple_candy_block
+        amount: 1
+
+    yellow_candy_block:
+      enabled: true
+      pattern:
+        - CC
+        - CC
+      ingredients:
+        C: halloween:candy_yellow
+      result:
+        item: halloween:yellow_candy_block
+        amount: 1
