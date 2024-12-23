@@ -1,9 +1,0 @@
-info:
-  namespace: space
-font_images:
-  rocket_menu:
-    permission: "ayw.emoji.admin"
-    show_in_gui: true
-    suggest_in_command: false
-    path: "menus/rocket_menu.png"
-    y_position: 12
