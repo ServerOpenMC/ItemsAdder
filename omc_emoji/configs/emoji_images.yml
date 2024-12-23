@@ -1,5 +1,5 @@
 info:
-  namespace: twitteremojis
+  namespace: omc_emoji
 font_images:
   0:
     path: font/emoji/0
