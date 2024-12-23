@@ -1,0 +1,449 @@
+info:
+  namespace: elitecreatures
+items:
+  halloween_decoration_v1_broom:
+    display_name: Broom
+    resource:
+      material: paper
+      generate: false
+      model_path: halloween_decoration_v1/broom
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: armor_stand
+        hitbox:
+          length: 1
+          width: 3
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: false
+  halloween_decoration_v1_candle:
+    display_name: Candle
+    resource:
+      material: paper
+      generate: false
+      model_path: halloween_decoration_v1/candle
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        light_level: 10
+        entity: armor_stand
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  halloween_decoration_v1_celling_lamp:
+    display_name: Celling Lamp
+    resource:
+      material: paper
+      generate: false
+      model_path: halloween_decoration_v1/celling_lamp
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        light_level: 10
+        entity: armor_stand
+        hitbox:
+          length: 1
+          width: 1
+          height: 3
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: true
+          floor: false
+  halloween_decoration_v1_mr_thing:
+    display_name: Mr Thing
+    resource:
+      material: paper
+      generate: false
+      model_path: halloween_decoration_v1/mr_thing
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: armor_stand
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  halloween_decoration_v1_picture:
+    display_name: Picture
+    resource:
+      material: paper
+      generate: false
+      model_path: halloween_decoration_v1/picture
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: armor_stand
+        hitbox:
+          length: 1
+          width: 2
+          height: 2
+          length_offset: 0
+          width_offset: -0.5
+          height_offset: 0
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: false
+  halloween_decoration_v1_pumpkin_1:
+    display_name: Pumpkin 1
+    resource:
+      material: paper
+      generate: false
+      model_path: halloween_decoration_v1/pumpkin_1
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: armor_stand
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  halloween_decoration_v1_pumpkin_2:
+    display_name: Pumpkin 2
+    resource:
+      material: paper
+      generate: false
+      model_path: halloween_decoration_v1/pumpkin_2
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: armor_stand
+        hitbox:
+          length: 1
+          width: 1
+          height: 2
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  halloween_decoration_v1_pumpkin_3:
+    display_name: Pumpkin 3
+    resource:
+      material: paper
+      generate: false
+      model_path: halloween_decoration_v1/pumpkin_3
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: armor_stand
+        hitbox:
+          length: 1
+          width: 1
+          height: 2
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  halloween_decoration_v1_pumpkin_4:
+    display_name: Pumpkin 4
+    resource:
+      material: paper
+      generate: false
+      model_path: halloween_decoration_v1/pumpkin_4
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: armor_stand
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  halloween_decoration_v1_rose_in_glass:
+    display_name: Rose In Glass
+    resource:
+      material: paper
+      generate: false
+      model_path: halloween_decoration_v1/rose_in_glass
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: armor_stand
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  halloween_decoration_v1_scarecrow:
+    display_name: Scarecrow
+    resource:
+      material: paper
+      generate: false
+      model_path: halloween_decoration_v1/scarecrow
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: armor_stand
+        hitbox:
+          length: 1
+          width: 1
+          height: 3
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  halloween_decoration_v1_skull_jar:
+    display_name: Skull Jar
+    resource:
+      material: paper
+      generate: false
+      model_path: halloween_decoration_v1/skull_jar
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: armor_stand
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  halloween_decoration_v1_skull_sun_flower:
+    display_name: Skull Sun Flower
+    resource:
+      material: paper
+      generate: false
+      model_path: halloween_decoration_v1/skull_sun_flower
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: armor_stand
+        hitbox:
+          length: 2
+          width: 2
+          height: 2
+          length_offset: -0.5
+          width_offset: -0.5
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  halloween_decoration_v1_smile_flag:
+    display_name: Smile Flag
+    resource:
+      material: paper
+      generate: false
+      model_path: halloween_decoration_v1/smile_flag
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: armor_stand
+        hitbox:
+          length: 1
+          width: 1
+          height: 2
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  halloween_decoration_v1_spider_in_jar:
+    display_name: Spider In Jar
+    resource:
+      material: paper
+      generate: false
+      model_path: halloween_decoration_v1/spider_in_jar
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: armor_stand
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  halloween_decoration_v1_tomb_stone_1:
+    display_name: Tomb Stone 1
+    resource:
+      material: paper
+      generate: false
+      model_path: halloween_decoration_v1/tomb_stone_1
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: armor_stand
+        hitbox:
+          length: 1
+          width: 1
+          height: 2
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  halloween_decoration_v1_tomb_stone_2:
+    display_name: Tomb Stone 2
+    resource:
+      material: paper
+      generate: false
+      model_path: halloween_decoration_v1/tomb_stone_2
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: armor_stand
+        hitbox:
+          length: 1
+          width: 1
+          height: 2
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  halloween_decoration_v1_trick_or_treat_bowl:
+    display_name: Trick Or Treat Bowl
+    resource:
+      material: paper
+      generate: false
+      model_path: halloween_decoration_v1/trick_or_treat_bowl
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: armor_stand
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  halloween_decoration_v1_wall_lamp:
+    display_name: Wall Lamp
+    resource:
+      material: paper
+      generate: false
+      model_path: halloween_decoration_v1/wall_lamp
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        light_level: 10
+        entity: armor_stand
+        hitbox:
+          length: 1
+          width: 1
+          height: 2
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: false
+  halloween_decoration_v1_witch_pot:
+    display_name: Witch Pot
+    resource:
+      material: paper
+      generate: false
+      model_path: halloween_decoration_v1/witch_pot
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: armor_stand
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+
+
+# 2186LX551BLXQJV

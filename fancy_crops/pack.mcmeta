@@ -1,0 +1,10 @@
+{
+	"pack": {
+		"description": "A take on fancier Minecraft farming",
+		"pack_format": 9,
+		"supported_formats": [
+			5,
+			34
+		]
+	}
+}

@@ -1633,3 +1633,9 @@ font_images:
     scale_ratio: 9
     show_in_gui: true
     y_position: 8
+  tools:
+    path: font/emoji/tools
+    permission: ayw.usemojis
+    scale_ratio: 9
+    show_in_gui: true
+    y_position: 8
