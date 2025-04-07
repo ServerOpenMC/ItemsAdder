@@ -1,0 +1,11 @@
+info:
+  namespace: omc_foods
+items:
+  spatule:
+    display_name: Spatule
+    permission: ayw.kebabier
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - items/spatule.png

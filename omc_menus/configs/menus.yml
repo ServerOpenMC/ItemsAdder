@@ -1,0 +1,9 @@
+info:
+    namespace: omc_menus
+font_images:
+    confirm_menu:
+        permission: confirm.menu
+        show_in_gui: true
+        suggest_in_command: false
+        path: "confirm_menu.png"
+        y_position: 16

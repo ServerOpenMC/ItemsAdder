@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "random_events_assets:item/ancient_leggings_texture"
-  }
-}

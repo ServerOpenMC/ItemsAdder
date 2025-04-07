@@ -1,0 +1,13 @@
+info:
+  namespace: omc_items
+items:
+  aywenite:
+    display_name: §dAywenite
+    permission: aywenite
+    lore:
+      - "§7Un matériau exceptionnel"
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - aywenite.png
