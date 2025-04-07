@@ -1,0 +1,46 @@
+info:
+  namespace: omc_foods
+items:
+  the_mixture:
+      display_name: "§9The Mixture"
+      lore:
+        - "§8§oun mystérieux mélange..."
+        - "§6Aucun Effet Secondaire!"
+      permission: the_mixture
+      resource:
+        material: MELON_SLICE
+        generate: false
+        model_path: the_mixture
+      events:
+        eat:
+          feed:
+            amount: 4
+            saturation: 2
+          execute_commands:
+            cmd1:
+              command: 'effect give {player} minecraft:nausea 25'
+              as_console: true
+              delay: 0
+            cmd2:
+              command: 'effect give {player} minecraft:speed 120 2'
+              as_console: true
+              delay: 0
+            cmd3:
+              command: 'effect give {player} minecraft:haste 60 2'
+              as_console: true
+              delay: 0
+recipes:
+  crafting_table:
+    the_mixture:
+      enabled: true
+      pattern:
+        - BCB
+        - CAC
+        - BCB
+      ingredients:
+        A: "omc_items:aywenite"
+        C: "GLASS"
+        B: "IRON_INGOT"
+      result:
+        item: "omc_foods:the_mixture"
+        amount: 1

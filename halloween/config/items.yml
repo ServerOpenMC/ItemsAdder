@@ -1,0 +1,112 @@
+info:
+  namespace: halloween
+items:
+  infos:
+    display_name: infos
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - items/infos.png
+
+  candy_red:
+    display_name: bonbon rouge
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - items/red_candy.png
+
+  candy_green:
+    display_name: bonbon vert
+    resource:
+      material: COOKIE
+      generate: true
+      textures:
+        - items/green_candy.png
+
+  candy_blue:
+    display_name: bonbon bleu
+    resource:
+      material: COOKIE
+      generate: true
+      textures:
+        - items/blue_candy.png
+
+  candy_purple:
+    display_name: bonbon violet
+    resource:
+      material: COOKIE
+      generate: true
+      textures:
+        - items/purple_candy.png
+
+  candy_yellow:
+    display_name: bonbon jaune
+    resource:
+      material: COOKIE
+      generate: true
+      textures:
+        - items/yellow_candy.png
+
+  candy_monster:
+    display_name: bonbon monstre
+    resource:
+      material: COOKIE
+      generate: true
+      textures:
+        - items/monster_candy.png
+
+  halloween_key:
+    display_name: clée d'halloween
+    resource:
+      material: PAPER
+      model_path: halloween_key
+
+
+recipes:
+  crafting_table:
+    candy_monster:
+      enabled: true
+      pattern:
+        - SRS
+        - GSE
+        - SBS
+      ingredients:
+        S: SUGAR
+        R: ROTTEN_FLESH
+        G: GUNPOWDER
+        E: SPIDER_EYE
+        B: BONE
+      result:
+        item: halloween:candy_monster
+        amount: 1
+
+    candy_red:
+      enabled: true
+      pattern:
+        - MMM
+        - MCM
+        - MMM
+      ingredients:
+        M: halloween:candy_monster
+        C: RED_DYE
+      result:
+        item: halloween:candy_red
+        amount: 1
+
+    halloween_key:
+      enabled: true
+      pattern:
+        - RPR
+        - BRY
+        - RGR
+      ingredients:
+        R: halloween:red_candy_block
+        P: halloween:purple_candy_block
+        B: halloween:blue_candy_block
+        Y: halloween:yellow_candy_block
+        G: halloween:green_candy_block
+      result:
+        item: halloween:halloween_key
+        amount: 3

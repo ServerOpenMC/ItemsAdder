@@ -1,0 +1,17 @@
+info:
+  namespace: omc_menus
+items:
+  accept_btn:
+    display_name: accept
+    resource:
+      material: PAPER
+      generate: true
+      textures: 
+        - accept_btn
+  refuse_btn:
+    display_name: refuse
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - refuse_btn

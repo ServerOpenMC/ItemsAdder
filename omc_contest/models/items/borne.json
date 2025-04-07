@@ -2,11 +2,11 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "contest:items/textureborne",
-		"1": "contest:items/texturecouleur2",
-		"2": "contest:items/texturecouleur",
-		"3": "contest:items/texturetabledeborne",
-		"particle": "contest:items/textureborne"
+		"0": "omc_contest:items/textureborne",
+		"1": "omc_contest:items/texturecouleur2",
+		"2": "omc_contest:items/texturecouleur",
+		"3": "omc_contest:items/texturetabledeborne",
+		"particle": "omc_contest:items/textureborne"
 	},
 	"elements": [
 		{

@@ -1,12 +1,12 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "contest:items/texture",
-		"1": "contest:items/texture1",
-		"2": "contest:items/texture3",
-		"3": "contest:items/texture4",
-		"4": "contest:items/texture5",
-		"particle": "contest:items/texture"
+		"0": "omc_contest:items/texture",
+		"1": "omc_contest:items/texture1",
+		"2": "omc_contest:items/texture3",
+		"3": "omc_contest:items/texture4",
+		"4": "omc_contest:items/texture5",
+		"particle": "omc_contest:items/texture"
 	},
 	"elements": [
 		{
