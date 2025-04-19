@@ -11,6 +11,35 @@ items:
       material: PAPER
       textures:
         - aywenite.png
+
+  one:
+    display_name: ""
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - buttons/1.png
+  sixty_four:
+    display_name: ""
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - buttons/64.png
+  plus:
+    display_name: ""
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - buttons/plus.png
+  minus:
+    display_name: ""
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - buttons/minus.png
 recipes:
   crafting_table:
     aywenite:
