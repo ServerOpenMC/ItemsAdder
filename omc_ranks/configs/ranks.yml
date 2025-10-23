@@ -148,3 +148,10 @@ font_images:
     path: "manager.png"
     scale_ratio: 9
     y_position: 8
+  animateur:
+    permission: "omc_ranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "animateur.png"
+    scale_ratio: 9
+    y_position: 8
