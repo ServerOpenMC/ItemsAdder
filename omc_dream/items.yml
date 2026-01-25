@@ -124,7 +124,7 @@ items:
         - others/ewenite.png
     nbt: '{"PublicBukkitValues":{"openmc:to_dream_item": "omc_dream:ewenite"}}'
 
-  energized_pickaxe:
+  crystallized_pickaxe:
     display_name: "Pioche Crysalisée"
     resource:
       material: DIAMOND_PICKAXE
