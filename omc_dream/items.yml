@@ -86,7 +86,9 @@ items:
         normal: tools/cloud_rod/cloud_rod
         cast: tools/cloud_rod/cloud_rod_cast
     durability:
-      unbreakable: true
+      max_durability: 32
+      durability: 32
+      disappear_when_broken: true
     tooltip_style: "omc_tooltips:tooltip/epic"
 
   meteo_wand:
@@ -107,7 +109,7 @@ items:
 
   somnifere:
     display_name: Somnifère
-    components_nbt_file: "nbt/somnifere.json"
+    components_nbt_file: "nbt/eatable.json"
     resource:
       material: POTION
       generate: true

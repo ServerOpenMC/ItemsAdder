@@ -3,6 +3,7 @@ info:
 items:
   moon_fish:
     display_name: Poisson-lune
+    components_nbt_file: "nbt/eatable.json"
     resource:
       material: SALMON
       generate: true
@@ -15,6 +16,7 @@ items:
 
   sun_fish:
     display_name: Poisson-soleil
+    components_nbt_file: "nbt/eatable.json"
     resource:
       material: COOKED_SALMON
       generate: true
@@ -30,6 +32,7 @@ items:
 
   poissonion:
     display_name: Poissonion
+    components_nbt_file: "nbt/eatable.json"
     resource:
       material: COD
       generate: true
@@ -44,6 +47,7 @@ items:
 
   cooked_poissonion:
     display_name: Poissonion cuit
+    components_nbt_file: "nbt/eatable.json"
     resource:
       material: COOKED_COD
       generate: true
@@ -59,6 +63,7 @@ items:
 
   dockerfish:
     display_name: Poisson Docker
+    components_nbt_file: "nbt/eatable.json"
     resource:
       material: COD
       generate: true
@@ -71,6 +76,7 @@ items:
 
   chips_aywen:
     display_name: Chips goût Aywen
+    components_nbt_file: "nbt/eatable.json"
     resource:
       material: PAPER
       generate: false
@@ -85,6 +91,7 @@ items:
 
   chips_dihydrogene:
     display_name: Chips goût Dihydrogene
+    components_nbt_file: "nbt/eatable.json"
     resource:
       material: PAPER
       generate: false
@@ -98,6 +105,7 @@ items:
 
   chips_jimmy:
     display_name: Chips goût Jimmy
+    components_nbt_file: "nbt/eatable.json"
     resource:
       material: PAPER
       generate: false
@@ -112,6 +120,7 @@ items:
 
   chips_lait_2_margouta:
     display_name: Chips goût Lait de Margouta
+    components_nbt_file: "nbt/eatable.json"
     resource:
       material: PAPER
       generate: false
@@ -121,10 +130,11 @@ items:
     consumable:
       nutrition: 20
       saturation: 3
-    tooltip_style: "omc_tooltips:tooltip/epic"
+    tooltip_style: "omc_tooltips:tooltip/onirique"
 
   chips_nature:
     display_name: Chips goût Nature
+    components_nbt_file: "nbt/eatable.json"
     resource:
       material: PAPER
       generate: false
@@ -138,6 +148,7 @@ items:
 
   chips_sans_plomb:
     display_name: Chips goût Sans Plomb 95
+    components_nbt_file: "nbt/eatable.json"
     resource:
       material: PAPER
       generate: false
@@ -151,6 +162,7 @@ items:
 
   chips_terre:
     display_name: Chips goût Terre
+    components_nbt_file: "nbt/eatable.json"
     resource:
       material: PAPER
       generate: false
